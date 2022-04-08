@@ -12,6 +12,7 @@ import { LetsTalkComponent } from './components/lets-talk/lets-talk.component';
 import { OurClientsComponent } from './components/our-clients/our-clients.component';
 import { FeaturedProjectsComponent } from './components/featured-projects/featured-projects.component';
 import { ProjectDetailsComponent } from './components/project-details/project-details.component';
+import { OurWorkDetailComponent } from './components/our-work-detail/our-work-detail.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ProjectDetailsComponent } from './components/project-details/project-de
     LetsTalkComponent,
     OurClientsComponent,
     FeaturedProjectsComponent,
-    ProjectDetailsComponent
+    ProjectDetailsComponent,
+    OurWorkDetailComponent
   ],
   imports: [
     CommonModule,

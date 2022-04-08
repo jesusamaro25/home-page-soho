@@ -1,5 +1,6 @@
 @import 'material-icons/iconfont/filled.scss';
 @import 'material-icons/iconfont/outlined.scss';
+@import "~bootstrap/dist/css/bootstrap.min.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,4 +17,26 @@ html,
 body {
     height: 100%;
     font-family: Graphik;
+}
+
+.color-primary-green {
+    color: #04a700;
+}
+
+.background-primary-gray {
+    background-color: #273138;
+}
+
+.button-green {
+    background-color: #02b300;
+    color: #fff;
+}
+
+.text-description {
+    color: #9a9a9a;
+}
+
+.override-row-margin {
+    margin-left: 0rem;
+    margin-right: 0rem;
 }

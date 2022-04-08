@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-lets-talk',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lets-talk.component.scss']
 })
 export class LetsTalkComponent implements OnInit {
+
+  @Input() content : string = ''; 
 
   constructor() { }
 
