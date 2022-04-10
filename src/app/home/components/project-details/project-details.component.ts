@@ -29,7 +29,6 @@ export class ProjectDetailsComponent implements OnInit, OnChanges {
   
   ngOnChanges(changes: SimpleChanges) {
    this.project = changes.project.currentValue;
-   console.log(this.project)
   }
 
 }
