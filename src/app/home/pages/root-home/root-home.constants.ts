@@ -5,3 +5,5 @@ export const PROJECTS_DESCTIPTION = 'Lorem ipsum dolor sit amet, consectetuer ad
 export const CLIENTS_TITLE = 'Lo que dicen nuestros clientes';
 export const CLIENTS_DESCTIPTION = '';
 export const LETS_TALK_BUTTON = 'Hablemos de tu proyecto';
+export const SPECIALIZE_DESCTIPTION = 'Nos especializamos en';
+export const SPECIALIZE_TEXT = 'interfaces digitales que los usuarios aman';

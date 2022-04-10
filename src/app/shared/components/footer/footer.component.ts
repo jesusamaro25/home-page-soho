@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as constants from './footer.constants';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  public componentConstants = constants;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  /**
+   * Función para hacer la redirección a otro sitio wev
+   * @param url 
+   */
+  goTo(url: string): void {
+    window.open(url, '_blank');
   }
 
 }

@@ -40,3 +40,37 @@ body {
     margin-left: 0rem;
     margin-right: 0rem;
 }
+
+.black-background {
+    background-color: #000000;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.be-flex {
+    display: flex;
+}
+
+.place-center {
+    place-content: center;
+}
+
+.expand-all {
+    width: 100%;
+}
+
+.lets-talk-button {
+    width: 19rem;
+    border-radius: .3rem;
+}
+
+.router-link-active {
+    color: #fff;
+    border-bottom: .3rem solid #02b300;
+}

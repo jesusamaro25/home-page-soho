@@ -1,0 +1,79 @@
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.space-left {
+    padding-left: 2%;
+}
+
+.space-right {
+    padding-right: 2%;
+}
+
+.span-pointer {
+    cursor: pointer;
+}
+
+.facebook-color {
+    color: #4658bc;
+}
+
+.twitter-color {
+    color: #0ad2ff
+}
+
+.linkedin-color {
+    color: #498ede
+}
+
+.youtube-color {
+    color: #eb6f6f;
+}
+
+.icon-div {
+    text-align: center;
+    width: 100%;
+}
+
+.go-to-end {
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 991px) {
+    .flex-direction-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .item {
+        flex: 1;
+        max-width: 33.33%;
+        margin: 0px 5px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .flex-direction-div {
+        display: flex;
+        flex-direction: row;
+    }
+    .big-space {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .short-space {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .item {
+        flex: 1;
+        max-width: 33.33%;
+        margin: 0px 5px;
+    }
+}

@@ -1,4 +1,4 @@
-<p>footer works!</p>
+<!-- <p>footer works!</p>
 <span class="material-icons">add_location</span>
 <span class="material-icons">local_offer</span>
 <span class="material-icons">sensors</span>
@@ -6,4 +6,40 @@
 
 <h1 class="text-3xl font-bold underline text-red-800">
     Hello world!
-</h1>
+</h1> -->
+
+<footer class="black-background">
+    <div class="icon-div">
+        <span class="material-icons">add_location</span>
+    </div>
+    <div class="main-footer">
+        <div class="item space-left">
+            <span class="white-text">&copy; {{componentConstants.YEAR}}</span> <span class="white-text"> {{componentConstants.SOHO}}</span>
+        </div>
+        <div class="item flex-direction-div place-center">
+            <div class="big-space">
+                <span (click)="goTo(componentConstants.WEB)" class="span-pointer color-primary-green">{{componentConstants.VISIT}}</span>
+            </div>
+            <div class="big-space">
+                <span (click)="goTo(componentConstants.WEB)" class="span-pointer color-primary-green">{{componentConstants.WRITE}}</span>
+            </div>
+            <div class="big-space">
+                <span (click)="goTo(componentConstants.WEB)" class="span-pointer color-primary-green">{{componentConstants.CALL}}</span>
+            </div>
+        </div>
+        <div class="item flex-direction-div space-right go-to-end">
+            <div class="short-space">
+                <span (click)="goTo(componentConstants.FACEBOOK_SITE)" class="span-pointer facebook-color">{{componentConstants.FACEBOOK}}</span>
+            </div>
+            <div class="short-space">
+                <span (click)="goTo(componentConstants.TWITTER_ACCOUNT)" class="span-pointer twitter-color">{{componentConstants.TWITTER}}</span>
+            </div>
+            <div class="short-space">
+                <span (click)="goTo(componentConstants.LINKEDIN_SITE)" class="span-pointer linkedin-color">{{componentConstants.LINKEDIN}}</span>
+            </div>
+            <div class="">
+                <span (click)="goTo(componentConstants.YOUTUBE_SITE)" class="span-pointer youtube-color">{{componentConstants.YOUTUBE}}</span>
+            </div>
+        </div>
+    </div>
+</footer>

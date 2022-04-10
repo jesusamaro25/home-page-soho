@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as constants from './event.constants';
 
 @Component({
   selector: 'app-event',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./event.component.scss']
 })
 export class EventComponent implements OnInit {
+
+  public componentConstants = constants;
 
   constructor() { }
 

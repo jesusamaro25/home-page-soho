@@ -1,4 +1,16 @@
-<div style="background-color: red;">
+<div class="background-div">
     <app-nav-bar></app-nav-bar>
-    <p>principal-information works!</p>
+    <div class="d-flex flex-column justify-content-center">
+        <div class="container space-container">
+            <div class="text-center">
+                <span class="white-text text-specialize">{{ description }}</span>
+            </div>
+            <div class="text-center">
+                <span class="color-primary-green text-specialize">{{ specialize }}</span>
+            </div>
+            <div class="text-center button-section space-button">
+                <button class="button-green py-2 lets-talk-button">{{ textButton | uppercase }}</button>
+            </div>
+        </div>
+    </div>
 </div>

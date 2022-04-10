@@ -1,1 +1,17 @@
-<p>event works!</p>
+<div class="p-3 black-background">
+    <div class="row expand-all gap-space">
+        <div class="col-12 col-lg-8 center-location justify-information align-text-center">
+            <div class="div-icon">
+                <span class="color-icon material-icons space-icon ">sensors</span>
+            </div>
+            <div>
+                <span class="white-text ">{{ componentConstants.DIRECT | uppercase }}</span> <span class="white-text "> {{componentConstants.SOHO}}</span> <span class="white-text "> {{componentConstants.EVENT| uppercase }}</span><span class="white-text "> {{componentConstants.EXPERIENCE }}</span>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 div-flex justify-buttons ">
+            <button class="button-green py-2 watch-event-button space-button ">{{ componentConstants.WATCH_EVENT | uppercase }}</button>
+            <button class="border-button black-background color-primary-green py-2 next-events-button ">{{ componentConstants.NEXT_EVENTS | uppercase }}</button>
+
+        </div>
+    </div>
+</div>

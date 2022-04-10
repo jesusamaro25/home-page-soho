@@ -1,0 +1,33 @@
+    .text-title {
+        color: #fff;
+    }
+    
+    .text-description {
+        color: #fff;
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .text-description {
+            font-size: 1rem;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 992px) {
+        .text-description {
+            font-size: 1.5rem;
+        }
+    }
+    
+    @media (min-width: 993px) {
+        .text-description {
+            font-size: 2rem;
+        }
+    }
+    
+    .main-div {
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }

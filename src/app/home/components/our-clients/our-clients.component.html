@@ -1,1 +1,11 @@
-<p>our-clients works!</p>
+<div class="row override-row-margin">
+    <div class="col-4 man-background general-background">
+        <app-our-clients-detail [person]="componentConstants.PERSON_MALE" [information]="componentConstants.INFORMATION_MALE"></app-our-clients-detail>
+    </div>
+    <div class="col-4 woman-background general-background">
+        <app-our-clients-detail [person]="componentConstants.PERSON_WOMAN" [information]="componentConstants.INFORMATION_WOMAN"></app-our-clients-detail>
+    </div>
+    <div class="col-4 male-background general-background">
+        <app-our-clients-detail [person]="componentConstants.PERSON_MAN" [information]="componentConstants.INFORMATION_MAN"></app-our-clients-detail>
+    </div>
+</div>

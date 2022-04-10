@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as constants from './our-clients.constants';
 
 @Component({
   selector: 'app-our-clients',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./our-clients.component.scss']
 })
 export class OurClientsComponent implements OnInit {
+
+  public componentConstants = constants;
 
   constructor() { }
 

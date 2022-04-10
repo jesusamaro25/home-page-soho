@@ -1,0 +1,69 @@
+.watch-event-button {
+    width: 10rem;
+    border-radius: .3rem;
+}
+
+.next-events-button {
+    width: 12rem;
+    border-radius: .3rem;
+}
+
+.div-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 0.3rem;
+}
+
+.color-icon {
+    color: #ff2742;
+}
+
+.border-button {
+    border: 1px solid #04a700;
+}
+
+.space-button {
+    margin-right: 1.5rem;
+}
+
+.space-icon {
+    margin-right: .5rem;
+}
+
+.gap-space {
+    grid-row-gap: .5rem;
+}
+
+.space-content {
+    padding-right: 1rem;
+}
+
+.align-text-center {
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+    .justify-information {
+        justify-content: center;
+    }
+    .justify-buttons {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .justify-information {
+        justify-content: end;
+    }
+    .justify-buttons {
+        justify-content: start;
+    }
+    .center-location {
+        display: flex;
+        align-items: center;
+    }
+    .div-icon {
+        display: flex;
+    }
+}
