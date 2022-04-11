@@ -18,3 +18,9 @@
 .space-button {
     padding-top: 2%;
 }
+
+@media only screen and (max-width: 991px) {
+    .space-button {
+        padding-top: 5%;
+    }
+}

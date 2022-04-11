@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2rem;
     padding-bottom: 2rem;
     flex-wrap: wrap;
     width: 100%;
@@ -76,4 +75,9 @@
         max-width: 33.33%;
         margin: 0px 5px;
     }
+}
+
+.location-size-icon {
+    margin-top: -1rem;
+    font-size: 2rem;
 }

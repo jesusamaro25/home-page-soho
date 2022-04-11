@@ -13,7 +13,6 @@
 html,
 body {
     height: 100%;
-    font-family: Graphik;
 }
 
 .color-primary-green {
@@ -70,4 +69,48 @@ body {
 .router-link-active {
     color: #fff;
     border-bottom: .3rem solid #02b300;
+}
+
+.graphik-font {
+    font-family: Graphik;
+}
+
+.background-blue {
+    background-color: #223b82
+}
+
+.background-white {
+    background-color: #ffffff
+}
+
+.background-red {
+    background-color: #c92c3a
+}
+
+.text-blue {
+    color: #223b82
+}
+
+.text-red {
+    color: #c92c3a
+}
+
+.text-shine-red {
+    color: #ee2e24;
+}
+
+.background-shine-red {
+    background-color: #ee2e24;
+}
+
+.border-buttons {
+    border-color: currentColor;
+}
+
+.fill-height {
+    height: 100%;
+}
+
+.fit-image {
+    width: fit-content;
 }

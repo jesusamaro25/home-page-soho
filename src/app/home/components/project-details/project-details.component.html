@@ -2,26 +2,26 @@
 
     <!-----------CONTAINER WHEN IMAGE IS FIRST------------>
     <ng-container *ngIf="project.id !==2; else dercocontainer">
-        <div class="img-div col-6">
+        <div class="py-3 img-div col-12 col-lg-6 center-content-div project-information center-mobile">
             <img class="image-style" src="{{ project.image }}" alt="project" />
         </div>
-        <div class="big-top-space big-separator col-6">
-            <div [ngClass]="project.id === 1 ? 'text-white' : 'text-black'">
-                <img src="{{ project.logo }}" alt="project" />
-                <div class="separator">
-                    <hr class="separator-tag" [ngClass]="project.id === 1 ? 'text-white' : 'text-red'" />
+        <div class="py-3 big-separator col-12 col-lg-6">
+            <div class="fill-height center-content-div project-information center-mobile" [ngClass]="project.id === 1 ? 'text-white' : 'text-black'">
+                <img class="fit-image" src="{{ project.logo }}" alt="project" />
+                <div class="separator center-separator">
+                    <hr class="separator-tag no-opacity" [ngClass]="project.id === 1 ? 'text-white' : 'text-shine-red'" />
                 </div>
                 <div class="medium-top-space">
-                    <span class="title-text">{{ project.title }}</span>
+                    <span class="graphik-font title-text">{{ project.title }}</span>
                 </div>
-                <div class="low-top-space width-text">
-                    <span>{{ project.description }}</span>
+                <div class="center-text-mobile low-top-space width-text">
+                    <span class="graphik-font">{{ project.description }}</span>
                 </div>
                 <div class="tags-div medium-top-space">
-                    <span class="material-icons space-icon" [ngClass]="project.id === 1 ? 'tag-blue' : 'tag-white'">local_offer</span> <span class="tag-text" *ngFor="let tag of project.tags">{{ tag }}</span>
+                    <span class="material-icons space-icon" [ngClass]="project.id === 1 ? 'tag-blue' : 'tag-white'">local_offer</span> <span [ngClass]="project.id === 3 ? 'graphik-font' : ''" class="tag-text" *ngFor="let tag of project.tags">{{ tag }}</span>
                 </div>
                 <div class="medium-top-space">
-                    <button class="detail-button py-2" [ngClass]="project.id === 1 ? 'background-white text-blue' : 'background-red text-white'">{{ componentConstants.TEXT_BUTTON | uppercase }}</button>
+                    <button class="border-buttons detail-button py-2" [ngClass]="project.id === 1 ? 'background-white text-blue' : 'background-shine-red text-white'">{{ componentConstants.TEXT_BUTTON | uppercase }}</button>
                 </div>
             </div>
         </div>
@@ -30,29 +30,27 @@
 
 <!-----------CONTAINER WHEN TEXT IS FIRST------------>
 <ng-template #dercocontainer>
-    <div class="col-6 center-content-div">
-        <div class="big-top-space-red big-separator col-6">
-            <div class="text-white">
-                <img src="{{ project.logo }}" alt="project" />
-                <div class="separator">
-                    <hr class="separator-tag-red text-white" />
-                </div>
-                <div class="medium-top-space">
-                    <span class="title-text">{{ project.title }}</span>
-                </div>
-                <div class="low-top-space">
-                    <span>{{ project.description }}</span>
-                </div>
-                <div class="tags-div medium-top-space">
-                    <span class="material-icons space-icon tag-red">local_offer</span> <span class="tag-text" *ngFor="let tag of project.tags">{{ tag }}</span>
-                </div>
-                <div class="medium-top-space">
-                    <button class="detail-button py-2 background-white text-red">{{ componentConstants.TEXT_BUTTON | uppercase }}</button>
-                </div>
+    <div class="py-3 big-separator col-12 col-lg-6">
+        <div class="fill-height center-content-div project-information center-mobile text-white">
+            <img class="fit-image" src="{{ project.logo }}" alt="project" />
+            <div class="separator center-separator">
+                <hr class="separator-tag no-opacity text-white" />
+            </div>
+            <div class="medium-top-space">
+                <span class="graphik-font title-text">{{ project.title }}</span>
+            </div>
+            <div class="center-text-mobile low-top-space width-text">
+                <span class="graphik-font">{{ project.description }}</span>
+            </div>
+            <div class="tags-div medium-top-space">
+                <span class="material-icons space-icon tag-red">local_offer</span> <span class="tag-text" *ngFor="let tag of project.tags">{{ tag }}</span>
+            </div>
+            <div class="medium-top-space">
+                <button class="border-buttons detail-button py-2 background-white text-red">{{ componentConstants.TEXT_BUTTON | uppercase }}</button>
             </div>
         </div>
     </div>
-    <div class="img-div col-6">
+    <div class="py-3 img-div col-12 col-lg-6 center-content-div project-information center-mobile">
         <img class="image-style" src="{{ project.image }}" alt="project" />
     </div>
 </ng-template>

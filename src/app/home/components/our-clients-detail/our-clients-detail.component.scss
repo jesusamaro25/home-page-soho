@@ -1,5 +1,6 @@
     .text-title {
         color: #fff;
+        font-weight: bold;
     }
     
     .text-description {
@@ -12,13 +13,13 @@
         }
     }
     
-    @media (min-width: 768px) and (max-width: 992px) {
+    @media (min-width: 768px) and (max-width: 991px) {
         .text-description {
             font-size: 1.5rem;
         }
     }
     
-    @media (min-width: 993px) {
+    @media (min-width: 992px) {
         .text-description {
             font-size: 2rem;
         }

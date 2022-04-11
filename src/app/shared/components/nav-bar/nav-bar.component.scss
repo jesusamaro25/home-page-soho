@@ -3,6 +3,19 @@ a:hover {
     cursor: pointer;
 }
 
+a:focus {
+    color: #9a9a9a;
+}
+
 .space-image {
     padding-top: 1rem;
+}
+
+@media only screen and (max-width: 991px) {
+    .logo-size {
+        height: 2rem;
+    }
+    .space-image {
+        padding-top: .5rem;
+    }
 }

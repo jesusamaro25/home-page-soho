@@ -17,7 +17,7 @@ export class FeaturedProjectsComponent implements OnInit {
     {
         "id": 1,
         "image": "http://imgfz.com/i/yE7cwre.png",
-        "logo": "http://imgfz.com/i/SJin5tc.png",
+        "logo": "http://imgfz.com/i/4dkFqCH.png",
         "title": "Sitio publico y privado",
         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis",
         "tags": [
@@ -30,7 +30,7 @@ export class FeaturedProjectsComponent implements OnInit {
     {
         "id": 2,
         "image": "http://imgfz.com/i/iyeXRuB.png",
-        "logo": "http://imgfz.com/i/BNyolfH.png",
+        "logo": "http://imgfz.com/i/FHfitQN.png",
         "title": "Sitios web 2017",
         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus",
         "tags": [
@@ -42,7 +42,7 @@ export class FeaturedProjectsComponent implements OnInit {
     {
         "id": 3,
         "image": "http://imgfz.com/i/Gk3oBgy.png",
-        "logo": "http://imgfz.com/i/MrkLGJP.png",
+        "logo": "http://imgfz.com/i/xodDGEs.png",
         "title": "TV App",
         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis",
         "tags": [
