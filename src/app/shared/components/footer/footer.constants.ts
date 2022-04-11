@@ -1,6 +1,6 @@
 export const YEAR = '2017';
 export const SOHO = 'SOHO internet + humana';
-export const VISIT = 'Vísitanos';
+export const VISIT = 'Visítanos';
 export const WRITE = 'Escríbenos';
 export const CALL = 'Llámanos';
 export const FACEBOOK = 'Facebook';
